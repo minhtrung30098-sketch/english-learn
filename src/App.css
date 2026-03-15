@@ -13,17 +13,19 @@ min-height:100vh;
 
 /* HEADER */
 
-header{
-background:transparent;
-text-align:center;
-padding:30px 20px;
-font-size:26px;
-letter-spacing:1px;
+.header {
+  background: linear-gradient(135deg,#0f172a,#1e3a8a);
+  padding: 25px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 .header h1 {
   color: white;
   font-size: 36px;
   font-weight: bold;
+  line-height: 1.4;
   margin: 0;
 }
 /* MAIN SECTION */
