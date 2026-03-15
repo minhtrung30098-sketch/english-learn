@@ -13,7 +13,7 @@ return(
 <h3>Thông tin liên hệ</h3>
 
 <p><b>Admin:</b> English Learning</p>
-<p><b>Email:</b> admin@email.com</p>
+<p><b>Email:</b> englishlearning@email.com</p>
 <p><b>Phản hồi:</b> Trong vòng 24 giờ</p>
 <p><b>Chi phí:</b> Miễn phí</p>
 
