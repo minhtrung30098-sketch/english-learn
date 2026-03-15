@@ -20,7 +20,12 @@ padding:30px 20px;
 font-size:26px;
 letter-spacing:1px;
 }
-
+.header h1 {
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
 /* MAIN SECTION */
 
 section{

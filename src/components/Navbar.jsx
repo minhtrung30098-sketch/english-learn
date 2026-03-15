@@ -4,7 +4,9 @@ return(
 
 <header>
 
-<h1><span>📚 English Learning Website</span></h1>
+<div className="header">
+  <h1>📚 English Learning Website</h1>
+</div>
 
 <nav className="navbar">
 
