@@ -28,7 +28,7 @@ Tìm Kiếm
 className="navBtn"
 onClick={()=>setPage("grammar")}
 >
-Giải Thích
+Ngữ Pháp
 </button>
 
 <button
