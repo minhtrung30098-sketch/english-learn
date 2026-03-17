@@ -457,3 +457,12 @@ grid-template-columns:1fr;
 }
 
 }
+/*FOOTER*/
+.footer {
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+  font-size: 14px;
+}

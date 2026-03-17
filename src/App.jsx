@@ -5,6 +5,7 @@ import Home from "./components/Home.jsx"
 import Dictionary from "./components/Dictionary.jsx"
 import Grammar from "./components/Grammar.jsx"
 import Contact from "./components/Contact.jsx"
+import Footer from "./components/Footer.jsx"
 
 import "./App.css"
 
@@ -22,7 +23,7 @@ function App() {
       {page === "dictionary" && <Dictionary />}
       {page === "grammar" && <Grammar />}
       {page === "contact" && <Contact />}
-
+      <Footer />
     </div>
 
   )
