@@ -266,6 +266,9 @@ cursor:pointer;
 .contactForm button:hover{
 background:#16a34a;
 }
+.contactTitle{
+  color: white;
+}
 /* HERO SECTION */
 
 .hero{
