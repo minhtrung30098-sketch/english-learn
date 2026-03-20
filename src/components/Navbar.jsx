@@ -1,4 +1,11 @@
-function Navbar({ setPage }) {
+function Navbar() {
+
+const scrollToSection = (id) => {
+  const el = document.getElementById(id);
+  if (el) {
+    el.scrollIntoView({ behavior: "smooth" });
+  }
+};
 
 return(
 
@@ -12,28 +19,28 @@ return(
 
 <button
 className="navBtn"
-onClick={()=>setPage("home")}
+onClick={()=>scrollToSection("home")}
 >
 Trang Chủ
 </button>
 
 <button
 className="navBtn"
-onClick={()=>setPage("dictionary")}
+onClick={()=>scrollToSection("dictionary")}
 >
 Tìm Kiếm
 </button>
 
 <button
 className="navBtn"
-onClick={()=>setPage("grammar")}
+onClick={()=>scrollToSection("grammar")}
 >
 Ngữ Pháp
 </button>
 
 <button
 className="navBtn"
-onClick={()=>setPage("contact")}
+onClick={()=>scrollToSection("contact")}
 >
 Liên Hệ
 </button>
@@ -43,7 +50,6 @@ Liên Hệ
 </header>
 
 )
-
 }
 
 export default Navbar
