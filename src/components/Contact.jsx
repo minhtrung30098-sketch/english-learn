@@ -4,7 +4,7 @@ return(
 
 <section id="contact">
 
-<h2>📩 Liên hệ tư vấn</h2>
+<h2 className="contactTitle">📩 Liên hệ tư vấn</h2>
 
 <div className="contactContainer">
 

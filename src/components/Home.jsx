@@ -7,7 +7,7 @@ return(
 <div className="hero-container">
 
 <div className="hero-badge">
-📊 Benchmark thực tế • Dự án cá nhân • 2026
+• Dự án cá nhân • 2026
 </div>
 
 <h1 className="hero-title">

@@ -1,5 +1,3 @@
-import { useState } from "react"
-
 import Navbar from "./components/Navbar.jsx"
 import Home from "./components/Home.jsx"
 import Dictionary from "./components/Dictionary.jsx"
@@ -11,23 +9,20 @@ import "./App.css"
 
 function App() {
 
-  const [page, setPage] = useState("home")
-
   return (
-
     <div>
 
-      <Navbar setPage={setPage} />
+      <Navbar />
 
-      {page === "home" && <Home />}
-      {page === "dictionary" && <Dictionary />}
-      {page === "grammar" && <Grammar />}
-      {page === "contact" && <Contact />}
+      <Home />
+      <Dictionary />
+      <Grammar />
+      <Contact />
+
       <Footer />
+
     </div>
-
   )
-
 }
 
 export default App
